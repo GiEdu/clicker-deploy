@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,290;1,290&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body{
+    background: linear-gradient(rgb(56, 56, 235), rgb(116, 116, 243));
+    background-attachment:fixed ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 30px;
+}
+.btn{
+    background-color: rgb(4, 63, 255);
+    width: 250px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    font-size: 121%;
+    position: absolute;
+    text-align: center;
+    top: 61%;
+}
+.btn:hover{
+    background-color: rgb(41, 109, 255);
+    box-shadow: 1px 1px 20px rgb(149, 149, 255);
+}
+.tagA{
+    text-decoration: none;
+    color: white;
+}
+#texto{
+    font-size: 50px;
+    font-family: Noto Sans;
+    font-weight: 600;
+    position: absolute;
+    top: 36%;
+}
+#Imagem{
+    border-radius: 10px;
+    position: absolute;
+    left: 48%;
+    top: 25%;
+    width: 700px;
+    border: 3px solid lightblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.Ini{
+    background-color: rgb(79, 79, 255);
+    width: 150px;
+    height: 24px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 121%;
+    transition: all 200ms linear;
+    color: rgb(151, 176, 231);
+}
+.Ini:hover{
+    box-shadow: 1px 1px 20px rgb(149, 149, 255);
+}
+.version{
+    width: 150px;
+    height: 24px;
+    font-size: 121%;
+    background-color: rgb(79, 79, 255);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 200ms linear;
+}
+.version:hover{
+    color: rgb(151, 176, 231);
+    box-shadow: 1px 1px 20px rgb(149, 149, 255);
+}
